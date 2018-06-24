@@ -24,14 +24,14 @@ new Plugin();
 
 final class Plugin {
 
-	public function __construct() {
-		add_action( 'init', [ $this, 'run' ] );
-	}
+  public function __construct() {
+    add_action( 'init', [ $this, 'run' ] );
+  }
 
-	public function run() {
-	
-	  $remove_list = apply_filters('kntnt_admin_bar_sanitizer_remove_list', [
-	    'wp-logo',
+  public function run() {
+  
+    $remove_list = apply_filters('kntnt_admin_bar_sanitizer_remove_list', [
+      'wp-logo',
       'about',
       'wporg',
       'documentation',
@@ -39,7 +39,7 @@ final class Plugin {
       'feedback',
       'site-name',
       'customize',
-	  ]);
+    ]);
 
     if(is_admin()) {
 
@@ -77,11 +77,11 @@ final class Plugin {
       $ab->add($item, $args['title'], $args['link'], $args['icon'], $args['icon_top_margin']);
     }
 
-	}
-	
-	private function default_values(&$args) {
+  }
+  
+  private function default_values(&$args) {
     if ( ! isset($args['icon'])) { $args['icon'] = ''; }
     if ( ! isset($args['icon_top_margin'])) { $args['icon_top_margin'] = 2; }
-	}
+  }
 
 }
