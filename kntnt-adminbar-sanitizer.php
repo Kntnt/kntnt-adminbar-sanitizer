@@ -25,7 +25,7 @@ new Plugin();
 final class Plugin {
 
 	public function __construct() {
-		add_action( 'plugins_loaded', [ $this, 'run' ] );
+		add_action( 'init', [ $this, 'run' ] );
 	}
 
 	public function run() {
