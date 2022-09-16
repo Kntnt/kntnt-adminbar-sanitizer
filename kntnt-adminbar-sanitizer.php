@@ -7,7 +7,7 @@
  * Plugin Name:       Kntnt's adminbar sanitizer
  * Plugin URI:        https://www.kntnt.com/
  * Description:       Sanitizes adminbar from junk and provides enhancements.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Thomas Barregren
  * Author URI:        https://www.kntnt.com/
  * License:           GPL-3.0+
