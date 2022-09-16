@@ -58,7 +58,7 @@ final class Plugin {
       $add_list = apply_filters('kntnt_admin_bar_sanitizer_add_front_list', [
         'home' => [
           'title' => get_option('blogname'),
-          'link' => get_home_url() . '/wp-admin',
+          'link' => get_home_url() . '/wp-admin/',
           'icon' => '\f226',
           'icon_top_margin' => 0,
         ],
