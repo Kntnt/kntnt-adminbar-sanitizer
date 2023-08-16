@@ -3,9 +3,9 @@
 /**
  * @wordpress-plugin
  * Plugin Name:       Kntnt Adminbar Sanitizer
- * Plugin URI:        https://www.kntnt.com/
+ * Plugin URI:        https://github.com/Kntnt/kntnt-adminbar-sanitizer
  * Description:       Sanitizes adminbar from junk and provides enhancements.
- * Version:           2.0.0
+ * Version:           2.0.1
  * Author:            Thomas Barregren
  * Author URI:        https://www.kntnt.com/
  * License:           GPL-3.0+
